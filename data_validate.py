@@ -32,4 +32,4 @@ df = pd.DataFrame(content,columns=['fileName', 'size', 'date'])
 # file_name = "_SUCCESS"
 
 # Commenting the line , since it may copy and can be dangerous
-# copy_files = map(lambda x : client.copy_object(copy_source,"tivo-session-store","/users/sanni/data/"),non_success_file_path)
+# copy_files = map(lambda x : client.copy_object(copy_source,"",""),non_success_file_path)
